@@ -50,10 +50,10 @@ def inference(row, cols, scaler, ohe, model):
 
 
 st.title('Car Price Prediction App')
-st.write('Predicting Price of a Car based on its features')
+st.subheader('Predicting Price of a Car based on its features')
 image = Image.open('model/car.jpg')
 st.image(image, use_column_width=True)
-st.write('Please fill in the details of the car under consideration in the left sidebar and click on the button below!')
+st.write('Please fill in the details of the car in the left sidebar and click on the button below!')
 
 
 
